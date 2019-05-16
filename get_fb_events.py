@@ -7,7 +7,7 @@ from lxml import html
 from selenium import webdriver
 
 #csv to dataframe
-df = pd.read_csv('/Users/celarno/Downloads/cat.csv')
+df = pd.read_csv('./cat.csv')
 df
 
 def _remove_attrs(soup):
